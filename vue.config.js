@@ -25,6 +25,7 @@ module.exports = {
     config.resolve.alias
       .set('@', resolve('src'))
       .set('common', resolve('src/common'))
+      .set('assets', resolve('src/assets'))
       .set('components', resolve('src/components'))
       .set('mixins', resolve('src/mixins'))
       .set('api', resolve('src/api'))
