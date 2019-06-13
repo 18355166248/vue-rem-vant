@@ -3,7 +3,7 @@
  * @param {Date} val 日期参数
  * @param {Boolean} all 为ture返回年月日时分秒 不传返回年月日
  */
-const formatTimer = function(val, all) {
+const formatTimer = function (val, all) {
   if (val) {
     var dateTimer = new Date(val * 1000)
     var y = dateTimer.getFullYear()
@@ -17,7 +17,7 @@ const formatTimer = function(val, all) {
     h = h >= 10 ? h : '0' + h
     m = m >= 10 ? m : '0' + m
     s = s >= 10 ? s : '0' + s
-    if (hours) {
+    if (all) {
       return y + '-' + M + '-' + d + ' ' + h + ':' + m + ':' + s
     } else {
       return y + '-' + M + '-' + d

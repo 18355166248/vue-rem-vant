@@ -26,6 +26,7 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex'
+import { refreshCurrentRoute } from 'common/js/util'
 export default {
   name: 'App',
   computed: {
@@ -34,7 +35,7 @@ export default {
   methods: {
     onRefresh () {
       this.STOREChangeNetwork(true)
-      this.$router.push('/refresh')
+      refreshCurrentRoute()
     },
     ...mapMutations(['STOREChangeNetwork'])
   }
