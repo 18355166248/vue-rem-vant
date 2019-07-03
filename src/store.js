@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    network: false // 断网标识
+    network: true // 断网标识
   },
   mutations: {
     STOREChangeNetwork (state, bool) {
