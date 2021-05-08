@@ -13,7 +13,7 @@
     "amfe-flexible": "^2.2.1",
     "axios": "^0.18.0",
     "core-js": "^2.6.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "vant": "^1.6.14",
     "vue": "^2.6.10",
     "vue-awesome-swiper": "^3.1.3",
